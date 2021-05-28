@@ -24,6 +24,7 @@ Prefix: ``/``
   + [unmute](#unmute)
   + [kick](#kick)
 + [Özellikler](#features)
++ [Güvenlik](#security)
 
 <h2 id="aile_komutlari">Aile Komutları</h2>
 
@@ -184,4 +185,15 @@ kick @x @y @z
 + İpucu sistemi.
 + Spam/flood koruması.
 + Davet linki koruması.
++ Giriş ve çıkış mesajları.
++ DM giriş mesajı.
++ Tüm işlemlerin kaydını tutar.
++ Davet linki takibi.
 + CoderCat Assistan Shell(terminal üstünden botun kök kontrolünü yapabilme)
+
+<h2 id="security">Güvenlik</h2>
+
++ Hesap yeni ise private kanala bir uyarı mesajı düşer ve kimin tarafından davet edildiği, hesabın kaç günlük olduğu gibi bilgileri aktarır.
++ Spam ve flood yapılmasını engeller, tekrarı halinde tedbir uygular.
++ CoderCat'in kendi davet bağlantıları da dahil olmak üzere hiçbir şekilde herhangi bir davet bağlantısının üyeler tarafından paylaşılmasına izin vermez.
++ Bir komut çalışmadığında bunu ilgili kişilere bildirmeye çalışır.
