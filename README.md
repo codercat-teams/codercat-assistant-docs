@@ -1,4 +1,4 @@
-# CoderCat Asisstant - Klavuzu
+# CoderCat Asisstant - Kılavuzu
 
 Bu dökümantasyon tüm komutların başına prefix getirildiğini varsayar.
 <br>
