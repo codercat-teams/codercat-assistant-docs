@@ -18,11 +18,6 @@ Prefix: ``/``
     + [remove / rem](#cli_remove)
   + [write](#write)
   + [clear](#clear)
-  + [ban](#ban)
-  + [mute](#mute)
-  + [unban](#unban)
-  + [unmute](#unmute)
-  + [kick](#kick)
 + [Özellikler](#features)
 + [Güvenlik](#security)
 
@@ -131,52 +126,6 @@ Belirtilen sayıda kanalda mesaj silin.
 clear 10
 ```
 
-<h3 id="ban">ban</h3>
-Etiketlenen kullanıcıların süre belirtmeden ya da belirli bir süre için yasaklayın. Süre dakika cinsindendir ve en az 1 dakika verilebilir.
-<br>
-Örnek kullanımlar;
-
-```
-ban @x @y @z    -> x, y ve z üyelerini süre olamadan yasakla.
-ban 1 @x @y @z  -> z, y ve z üyelerini 1 dakika süre ile yasakla.
-```
-
-<h3 id="mute">mute</h3>
-Etiketlenen kullanıcıların süre belirtmeden ya da belirli bir süre için susuturun. Süre dakika cinsindendir ve en az 1 dakika verilebilir.
-<br>
-Örnek kullanımlar;
-
-```
-mute @x @y @z    -> x, y ve z üyelerini süre olamadan sustur.
-mute 1 @x @y @z  -> z, y ve z üyelerini 1 dakika süre ile sustur.
-```
-
-<h3 id="unban">unban</h3>
-Etiketlenen kullanıcıların yasaklamasını kaldırın.
-<br>
-Örnek kullanımlar;
-
-```
-unmute @x @y @z
-```
-
-<h3 id="unmute">unmute</h3>
-Etiketlenen kullanıcıların susuturlmasını kaldırın.
-<br>
-Örnek kullanımlar;
-
-```
-unmute @x @y @z
-```
-
-<h3 id="kick">kick</h3>
-Etiketlenen kullanıcıları atın.
-<br>
-Örnek kullanımlar;
-
-```
-kick @x @y @z
-```
 
 <h2 id="features">Özellikler</h2>
 
