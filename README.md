@@ -10,7 +10,7 @@ Prefix: ``/``
   + [ping](#ping)
   + [report](#report)
   + [tip](#tip)
-+ [Moderasyon Komutları](#moderasyon_komutlari)
++ [Yönetim Ekibi Komutları](#yonetim_ekibi_komutlari)
   + [cli / console](#cli)
     + [get](#cli_get)
     + [set](#cli_set)
@@ -59,7 +59,7 @@ report @x kişisi #genel kanalında insanlara hakaret ediyor!
 tip Kappa emote getirilebilir.
 ```
 
-<h2 id="moderasyon_komutlari">Moderasyon Komutları</h2>
+<h2 id="yonetim_ekibi_komutlari">Yönetim Ekibi Komutları</h2>
 
 <h3 id="cli">cli / console</h3>
 CoderCat Asisstant kabuğunu kullanarak kök işlemlere erişin, bir terminal kullanmak ile aynı deneyimi sunar. <br>
